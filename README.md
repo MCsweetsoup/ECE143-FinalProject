@@ -1,13 +1,12 @@
 # ECE 143 Final Project
-# Topic
-Food Insecurtiy
+## Food Insecurtiy
 
 # Authors
-Tanvir Hussain
-Zehua Tang
-Haoyan Xin
-Lingxi Li
-Krystal Chan
+Tanvir Hussain<br>
+Zehua Tang<br>
+Haoyan Xin<br>
+Lingxi Li<br>
+Krystal Chan<br>
 
 
 # Overview
