@@ -1,5 +1,6 @@
 ## ECE 143 Final Project
+### Introduction
 
-## Team members 
+# Authors
 Zehua Tang, Haoyan Xin, Lingxi Li,  Krystal Chan, Tanvir Hussain
 
