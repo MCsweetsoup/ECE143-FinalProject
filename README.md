@@ -15,10 +15,17 @@ Food security is a measure of an individual’s ability to access healthy and nu
 # Data source
 We wish to use a combination of multiple datasets studying aspects of food insecurity. One such example is the United States Census Bureau's Pulse Survey. These datasets contain racial, ethnic, and geographical and socioeconomic status of respondents which can be correlated to their level of food security. There are also recent datasets regarding the impact of COVID-19 on food insecurity.
 
-# Data Virtualization
-![image](https://user-images.githubusercontent.com/59628484/153114785-00d2bc14-1c23-4b57-b47d-e6346d1ed12d.png)
-
 # Third party
 panda
+numpy
+matplotlib.pyplot
+
+# Data Virtualization
+<img src="Image/race.png" width ="350" height="300">
+<img src="Image/overall.png" width ="350" height="300">
+<img src="Image/state.png" width ="350" height="300">
+<br>
+
+
 
 
