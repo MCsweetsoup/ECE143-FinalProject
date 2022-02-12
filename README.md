@@ -24,8 +24,9 @@ matplotlib.pyplot
 <img src="Image/race.png" width ="350" height="300">
 <img src="Image/overall.png" width ="350" height="300">
 <img src="Image/state.png" width ="350" height="300">
+
+<img src="Image\Geographic_Coordinates_Superimposed_on_California_map.PNG"  width ="350" height="300">
+
 <br>
-
-
 
 
