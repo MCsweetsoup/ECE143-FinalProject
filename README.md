@@ -26,6 +26,7 @@ matplotlib.pyplot
 <img src="Image/overall.png" width ="350" height="300">
 <img src="Image/state.png" width ="350" height="300">
 
+<img src="Image/CA city food.png" width ="350" height="300">
 <img src="Image/food insecurity.png" width ="350" height="300">
 <img src="Image/covid19 pie.png" width ="350" height="300">
 <img src="Image/covid19 vs food.png" width ="350" height="300">
