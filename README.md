@@ -25,6 +25,12 @@ matplotlib.pyplot<br>
 "county food insercuity in CA.csv": dataset of the people have food insecurity problem for each county in California
 https://map.feedingamerica.org/county/2018/overall/california
 
+"2022 food insecurity vs race .csv":It contains two datasets
+First dataset: It contains the people have food insecurity on different race  compare to its own race population in California on each month in 2020
+Second dataset: It contains the people have the food insecurity on different race by each states in 2020
+https://www.ipr.northwestern.edu/state-food-insecurity.html
+https://frac.org/maps/food-security/tables/tab1_foodinsecurity_2018_2020.html
+
 # Data Virtualization
 <img src="Image/USA FOOD with name.png" width ="400" height="400">
 <img src="Image/race.png" width ="350" height="300">
