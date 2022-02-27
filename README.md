@@ -39,8 +39,6 @@ https://frac.org/maps/food-security/tables/tab1_foodinsecurity_2018_2020.html<br
 
 <img src="Image/CA city food.png" width ="350" height="300">
 <img src="Image/food insecurity.png" width ="350" height="300">
-<img src="Image/covid19 pie.png" width ="350" height="300">
-<img src="Image/covid19 vs food.png" width ="350" height="300">
 
 <img src="Image\Geographic_Coordinates_Superimposed_on_California_map.PNG"  width ="350" height="300">
 
