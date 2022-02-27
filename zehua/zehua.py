@@ -11,26 +11,31 @@ data = pd.read_csv('2022 food insecurity vs race .csv')
 plt.figure(figsize=(15,8))
 month = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 #Asian Plot
-plt.plot(data['Asian'],label=r'Asian',c='blue')
+plt.plot(data['Asian'],label=r'Asian',c='#c35b7e')
 
 #white plot
-plt.plot(data['white'],label=r'White',c='cyan')
+plt.plot(data['white'],label=r'White',c='#910736')
 
 #black plot
-plt.plot(data['black'],label=r'Black',c='#ff8817')
+plt.plot(data['black'],label=r'Black',c='#866ba8')
 
 #Hispanic or Latino plot
 plt.plot(data['Hispanic or Latino'],label=r'Hispanic or Latino',c='#f13710')
 
 #Other race plot
-plt.plot(data['Other race'],label=r'Other race',c='#866ba8')
+plt.plot(data['Other race'],label=r'Other race',c='#f8c928')
 
 ind = np.arange(len(month)) 
+plt.axvline(x=0,color ='black',ls =':',alpha=0.45)
 plt.axvline(x=3,color ='black',ls =':',alpha=0.45)
 plt.axvline(x=6,color ='black',ls =':',alpha=0.45)
-plt.axvline(x=8,color ='black',ls =':',alpha=0.45)
-plt.axhline(y=10.3,color ='red',ls =':',alpha=0.45)
-plt.axhline(y=41.2,color ='red',ls =':',alpha=0.45)
+plt.axvline(x=10,color ='black',ls =':',alpha=0.45)
+plt.axvline(x=11,color ='black',ls =':',alpha=0.45)
+plt.axhline(y=max(data['Asian']),color ='red',ls =':',alpha=0.45)
+plt.axhline(y=max(data['white']),color ='red',ls =':',alpha=0.45)
+plt.axhline(y=max(data['black']),color ='red',ls =':',alpha=0.45)
+plt.axhline(y=max(data['Hispanic or Latino']),color ='red',ls =':',alpha=0.45)
+plt.axhline(y=max(data['Other race']),color ='red',ls =':',alpha=0.45)
 plt.xticks(ind, month)
 plt.legend(loc='upper right')
 plt.xlabel("Month")
@@ -40,16 +45,16 @@ plt.ylim(5, 45)
 # end for the first graph code
 
 
-
 '''
 This graph is about the average of the food insercurity in 2020 by different races
 '''
-name= ["Asian",'Black','Hispanic','White','Other race']
-average = [data['Asian'].sum()/12,data['black'].sum()/12,data['Hispanic or Latino'].sum()/12,data['white'].sum()/12,data['Other race'].sum()/12]
+
+name= ["Asian",'white','black','Hispanic','Other race']
+average = [data['Asian'].sum()/12,data['white'].sum()/12,data['black'].sum()/12,data['Hispanic or Latino'].sum()/12,data['Other race'].sum()/12]
 plt.figure(figsize=(10,7))
-plt.bar(name,average,color=['blue', 'red', 'green', 'yellow', 'cyan'])
+plt.bar(name,average,color=['#c35b7e', '#910736', '#866ba8', '#f13710', '#f8c928'])
 plt.ylabel("Percent %")
-plt.xlabel("Race")
+plt.xlabel("Races")
 plt.title('Food Insecurity percent by Races in 2020 In California')
 #end for this graph
 
@@ -69,11 +74,11 @@ other = [i for i in data['other_s'] if math.isnan(i) == False]
 plt.figure(figsize=(10,7))
 ind = np.arange(len(states)) 
 width = 0.15
-plt.bar(ind,asian,width,color="blue",label = 'Asian')
-plt.bar(ind+width,white,width,color="red",label = 'White')
-plt.bar(ind+width*2,black,width,color="green",label = 'Black')
-plt.bar(ind+width*3,latino,width,color="yellow",label = 'Hispanic or Latino')
-plt.bar(ind+width*4,other,width,color="cyan",label = 'Other race')
+plt.bar(ind,asian,width,color='#c35b7e',label = 'Asian')
+plt.bar(ind+width,white,width,color='#910736',label = 'White')
+plt.bar(ind+width*2,black,width,color='#866ba8',label = 'Black')
+plt.bar(ind+width*3,latino,width,color='#f13710',label = 'Hispanic or Latino')
+plt.bar(ind+width*4,other,width,color='#f8c928',label = 'Other race')
 plt.xticks(ind, states)
 plt.legend(loc='upper right')
 plt.ylabel("Percent%")

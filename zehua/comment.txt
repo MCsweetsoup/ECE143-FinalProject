@@ -1,6 +1,8 @@
 You can directly copy the code to Jupyter notebook and it will show the graph, and this folder include the picture I plot and the code that I writer in .py file, with the entire dataset .csv file.
-Meaning of the picture:
-‘overall’: meaning the different race encounter food insecurity percent in 2020 
-‘race’: different race encounter food insecurity percent compare to its own race population in CA in each month in 2020
 
-‘stats’: top ten population states in 2020 with different race encounter food insecurity percent
+Meaning of each picture:
+‘overall’: meaning the different race encounter food insecurity percent in 2020, each color bar representing the average precent over 2020 
+
+‘race’: different races encounter food insecurity percent compare to its own race population in CA in each month in 2020, red horizontal dash line represents the peak of five races, and the black vertical dash line is its corresponding month
+
+‘state’: top ten population states in 2020 with different race encounter food insecurity percent, each color bar representing the average precent over 2020 
