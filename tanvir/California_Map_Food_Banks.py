@@ -7,7 +7,7 @@ from mpl_toolkits.basemap import Basemap
 PROJECT_ROOT_DIR = "C:\School\ECE_143\ECE_143_Group_Project\\"
 
 #Read in data
-fname = PROJECT_ROOT_DIR + 'tanvir\california_foodbanks.csv'
+fname = PROJECT_ROOT_DIR + 'Data\california_foodbanks.csv'
 data = pd.read_csv(fname)
 
 #Extract zip code
