@@ -32,7 +32,7 @@ https://www.ipr.northwestern.edu/state-food-insecurity.html<br>
 https://frac.org/maps/food-security/tables/tab1_foodinsecurity_2018_2020.html<br>
 
 # Data Virtualization
-<img src="Image/Food%20insecurity%20rate%20for%20each%20state%20in%202020.png" width ="400" height="400">
+<img src="Image/Food%20insecurity%20rate%20for%20each%20state%20in%202020.png">
 <img src="Image/race.png" width ="350" height="300">
 <img src="Image/overall.png" width ="350" height="300">
 <img src="Image/state.png" width ="350" height="300">
@@ -42,7 +42,7 @@ https://frac.org/maps/food-security/tables/tab1_foodinsecurity_2018_2020.html<br
 
 <img src="Image\Geographic_Coordinates_Superimposed_on_California_map.PNG"  width ="350" height="300">
 
-<img src="Image/Food%20Security%20Status%20of%20U.S.%20Households%20with%20Children%20in%202020.png" width ="350" height="300">
+<img src="Image/Food%20Security%20Status%20of%20U.S.%20Households%20with%20Children%20in%202020.png" >
 <br>
 
 
